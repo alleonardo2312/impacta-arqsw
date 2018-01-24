@@ -1,0 +1,43 @@
+
+Termos relacionados a performance
+
+1) Tempo de resposta
+    Representa a percepção do usuário de quão rápido o sistema reage para uma “Request” ou “Query”. 
+    A reação pode ser lenta ou rápida com base no tipo de atividade e o tempo necessário para processar a requisição
+
+
+http://www.linhadecodigo.com.br/artigo/3256/teste-de-desempenho-conceitos-objetivos-e-aplicacao-parte-1.aspx#ixzz5594W9p3y
+
+2) Responsividade
+
+Tempo desde o momento em que o usuário envia a requisição até o momento em que recebe a resposta completa
+
+http://app.crowdtest.me/testes-desempenho-conceitos/
+
+3) Latencia
+
+Tudo o que impede que o sistema apresente maior vazão (se ela for inferior à taxa com que as requisições são enviadas ao sistema).
+
+http://app.crowdtest.me/testes-desempenho-conceitos/
+
+
+
+4) throughput
+Vazão (throughput): o número de operações que o sistema é capaz de completar em um dado período de tempo;
+
+https://www.tiespecialistas.com.br/2015/11/tipos-de-teste-de-desempenho/
+
+5) Carga
+
+O principio do teste de carga é determinar o comportamento da aplicação Web através de condições normais e altos picos de carga. 
+À medida que se incrementa gradualmente a carga do normal até o pico, deve se notar qual o comportamento do hardware e do 
+tempo de resposta da aplicação.
+
+https://blog.octo.com/pt-br/medindo-o-desempenho-de-aplicacoes-web-parte-1/
+
+6) Sensibilidade à carga / degradação:
+
+ A fim de avaliar a sua robustez quando submetido a uma carga acima do previsto, assim como determinar o 
+ seu limite de capacidade com um tempo de resposta considerado aceitável para o sistema e infra- estrutura
+ 
+ https://www.tiespecialistas.com.br/2015/11/teste-de-desempenho-de-software/
