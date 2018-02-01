@@ -1,0 +1,46 @@
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><help_text>Space for dia--
+-id: Long
+-Nome: Long
+--
+#Operation(i: int): int
+/+AbstractOperation()/
+ram notes</help_text><element><id>UMLClass</id><coordinates><x>10</x><y>20</y><w>210</w><h>70</h></coordinates><panel_attributes>Participante
+--
+-idParticipante: int
+-Nome :String
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>380</y><w>210</w><h>70</h></coordinates><panel_attributes>Categoria
+--
+-idCategoria
+-Descricao : String
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>110</x><y>270</y><w>100</w><h>130</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=1..n
+categoriza ^</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>110</x><y>80</y><w>70</w><h>150</h></coordinates><panel_attributes>lt=-
+m1=1
+
+m2=0..n
+
+gera v</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>140</y><w>210</w><h>70</h></coordinates><panel_attributes>Aviso
+--
+-idOrganizador: int
+-Nome:String
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>210</y><w>210</w><h>70</h></coordinates><panel_attributes>Ideia
+--
+-idIdeia
+-Descricao : String
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>350</x><y>350</y><w>210</w><h>70</h></coordinates><panel_attributes>Organizador
+--
+-idOrganizador: int
+-Nome:String
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>160</y><w>190</w><h>80</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1
+emite ^</panel_attributes><additional_attributes>10;60;170;10</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>200</y><w>90</w><h>170</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1
+informa v</panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element></diagram>
